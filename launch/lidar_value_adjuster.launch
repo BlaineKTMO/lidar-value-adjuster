@@ -1,0 +1,11 @@
+<?xml version="1.0"?> 
+
+<launch>
+    <node pkg="lidar_value_adjuster" type="lidar_value_adjuster.py" name="lidar_value_adjuster" >
+        <param name="HZ" value="$(arg hz)"/>
+        <!-- <remap from="/odom" to="/odom"/> -->
+        <param name="/lidar_scan_topic" value="/scan"/>
+        <param name="/lidar_status_topic" value="/scan_status"/>
+        <param name="/adjusted_scan_topic" value="/adjusted_scan"/>
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+_workspace_packages=( ${(Q)"${(z)$(<<\EO:_workspace_packages
+
+EO:_workspace_packages
+)}"} )
+_workspace_cache_file_path='/home/blaine/catkin_ws/src/lidar_value_adjuster/.catkin_tools/cache'

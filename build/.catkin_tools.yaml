@@ -1,0 +1,6 @@
+devel_space: /home/blaine/catkin_ws/src/lidar_value_adjuster/devel
+install: false
+install_space: /home/blaine/catkin_ws/src/lidar_value_adjuster/install
+profile: default
+source_space: /home/blaine/catkin_ws/src/lidar_value_adjuster/src
+workspace: /home/blaine/catkin_ws/src/lidar_value_adjuster
